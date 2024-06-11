@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Cow_and_Bulls_game.props" />
+</Project>

@@ -1,0 +1,17 @@
+﻿@model GameData
+@using(Html.BeginForm("GameResult","Game")){
+    <div style="border:1px solid grey;padding:20px ">
+    <h2>Начать игру</h2>
+    <div class="form-group">
+        @Html.LabelFor(m => m.number)
+        @Html.TextBoxFor(m => m.number,new{
+            @class="form-control"
+        })
+    </div>
+    <br/>
+    <div class="form-group">
+        
+    <button type="submit" class="btn btn-outline-primary">Старт</button>
+    </div>
+    </div>
+}
